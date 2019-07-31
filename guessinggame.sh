@@ -7,7 +7,7 @@ function guessinggame {
   then
   echo "Congratolation you are right"
   fi
- 
+
   while [[ $number != $number_of_files ]]
   do
   if [[ $number -gt $number_of_files ]]
