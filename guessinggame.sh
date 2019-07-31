@@ -1,7 +1,6 @@
 number_of_files=$(ls -1 | wc -l)
 echo "How many files in this directory you think?!"
 read number
-echo $number
 
 if [[ $number -eq $number_of_files ]]
 then
