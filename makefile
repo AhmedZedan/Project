@@ -6,6 +6,3 @@ README.md: guessinggame.sh
 	date >> README.md
 	
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
-
-clear:
-	rm README.md
