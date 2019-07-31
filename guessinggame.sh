@@ -23,5 +23,4 @@ function guessinggame {
   done
   echo "congratolation you are right"
 }
-
 guessinggame
